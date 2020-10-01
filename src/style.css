@@ -24,7 +24,7 @@ small {
 .container {
   margin: 0 auto;
   max-width: 1000px;
-  padding: 4px;
+  padding: 2rem;
 }
 
 .title {
@@ -34,7 +34,6 @@ small {
 
 .form {
   display: grid;
-  /* max-width: 500px; */
 }
 
 .label {
@@ -56,6 +55,7 @@ small {
   background-color: rgba(0,0,0,0.75);
   color: white;
   padding: 1rem 2rem;
+  margin: 0.5rem;
   border: 1px solid rgba(0,0,0,0.75);
   border-radius: 20px;
   cursor: pointer;
@@ -76,4 +76,32 @@ small {
   .input {
     margin-bottom: 0;
   }
+
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 4rem;
+  }
+}
+
+.card {
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0,0,0.25);
+  margin-bottom: 2rem;
+  background-color: white;
+}
+
+.card--list {
+  margin-top: 2rem;
+}
+
+.card--title {
+  margin-bottom: 0.5rem;
+  font-size: 3.2rem;
+}
+
+.card--image {
+  margin: auto auto;
+  display: block;
 }
